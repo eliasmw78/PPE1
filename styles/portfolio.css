@@ -1,0 +1,122 @@
+.bloc1{
+	height: 150px;
+	width: 96%;
+	font-size: xx-large;
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-left: 2%; 
+    margin-right: 30px;
+	border-style: solid;
+    border-radius: 15px;
+}
+.bloc2{
+	height: 600px;
+	width: 500px;
+    font-size: xx-large;
+	float: left;
+	border-style: solid; 
+	text-align: center;
+	margin-right: 60px;
+    margin-left: 2%;
+	margin-bottom: 30px; 
+	border-radius: 5px;
+}
+.bloc3 {
+	height: 600px;
+	width: 1455px;
+    font-size: xx-large;
+	float: left;
+	border-style: solid; 
+	text-align: center;
+	margin-right: 10px; 
+	margin-bottom: 15px; 
+	border-radius: 5px;
+}
+.bloc4{
+        height: 100px;
+        width: 96%;
+        font-size: xx-large;
+        float: left;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 2%; 
+        margin-right: 30px;
+        border-style: solid;
+}
+.photo{
+	text-align: center;
+    float: right;
+	height: 200px; 
+	width: 150px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 60px;
+	margin-left: 70px; 
+	border-style: solid; 
+	border-radius: 5px;
+}
+textarea{
+    float: left;
+    width: 850px;
+    height: 520px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+	margin-left: 30px; 
+}
+.bloc6{
+    float: left;
+    width: 850px;
+    height: 520px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+	margin-left: 150px; 
+}
+
+div#menu {width: 130px; }
+
+div#menu ul {
+	padding: 0;
+	width: 130px;
+	border: 1px solid;
+	margin: 0px;
+}
+
+div#menu ul li {
+	position: relative;
+	list-style: none;
+	border-bottom: 1px solid;
+}
+
+div#menu ul ul {
+	position: absolute;
+	top: 0;
+	left: 130px;
+	display: none;
+}
+
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2, 
+div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 {display: block; }
+div#menu ul.niveau2 li.sousmenu ul.niveau3 {background: skyblue; }
+div#menu ul.niveau2:hover  {background: skyblue; }
+div#menu a { color: #000000; }
+
+div#menu li.hover { background: #EDD; }
+
+div#menu li.sousmenu:hover { background: skyblue; }
+
+div#menu li a {
+	text-decoration: none;
+	padding: 4px 0 4px 8px;
+	display: block; 
+	width: 130px;
+}
+
+div#menu li a:hover { border-left-color: skyblue; }
+div#menu ul ul li a:hover { border-left-color: skyblue; }
+div#menu ul ul ul li a:hover {border-left-color: skyblue;}
+
